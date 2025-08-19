@@ -7,14 +7,10 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-
-
-
-
-
     //ANSWER: 
 
-
+    System.out.print("Hi ");
+    System.out.println("this is my age: " + 15 );
 
     //Throughout the year this year we will need to store information. For that we will be using VARIABLES!
 
@@ -27,7 +23,7 @@ class Main {
     //List examples of the types below and give definition
     //int (integer): definition: numbers, examples:1,2,3,4,5
     //double: definition: numbers with decimals, examples:1.1,1.2,1.3,1.4,1.5
-    //boolean: definition: True or False, examples True, False
+    //boolean: definition: True or False, examples:True,False
 
     //For now we are just going to work with primitive
 
@@ -35,7 +31,7 @@ class Main {
 
     int count=2;
     double percent=1.1;
-    boolean isHome=True;
+    boolean isHome=true;
 
     //MATH TIME!
 
@@ -43,6 +39,11 @@ class Main {
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
+
+    System.out.println(10+2);
+    System.out.println(5-2);
+    System.out.println(4*3);
+    System.out.println(15/5);
 
     //Create codes that will print the following:
 
