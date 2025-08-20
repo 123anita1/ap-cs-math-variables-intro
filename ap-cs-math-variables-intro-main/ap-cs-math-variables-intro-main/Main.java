@@ -7,14 +7,10 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-
-
-
-
-
     //ANSWER: 
 
-
+    System.out.print("Hi ");
+    System.out.println("this is my age: " + 15 );
 
     //Throughout the year this year we will need to store information. For that we will be using VARIABLES!
 
@@ -25,17 +21,17 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integer): definition: numbers, examples:1,2,3,4,5
+    //double: definition: numbers with decimals, examples:1.1,1.2,1.3,1.4,1.5
+    //boolean: definition: True or False, examples:True,False
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
-
-
-
+    int count=2;
+    double percent=1.1;
+    boolean isHome=true;
 
     //MATH TIME!
 
@@ -44,17 +40,33 @@ class Main {
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
 
+    System.out.println(10+2);
+    System.out.println(5-2);
+    System.out.println(4*3);
+    System.out.println(15/5);
+    System.out.println(2%1);
+
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
 
-
+    for (int num=1; num<=100; num+=2)
+    {
+      System.out.println(num);
+    }
 
     //All multiples of 3 from 1 to 100
 
-
-
+    for (int num2=3; num2<=100; num2+=3)
+    {
+      System.out.println(num2);
+    }
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+
+    for (int num3=1000; num3>=0; num3-=10)
+    {
+      System.out.print(num3 + "-");
+    }
   }
 }
